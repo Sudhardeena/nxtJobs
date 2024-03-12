@@ -1,0 +1,76 @@
+.job-details-page {
+  max-width: 1110px;
+  width: 100%;
+  margin: auto;
+  min-height: 100vh;
+  background-color: #000000;
+}
+.loader-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.job-details-body {
+  padding: 20px;
+}
+.description-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  padding: 0;
+}
+.skill-item {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  width: 100px;
+  margin-bottom: 30px;
+  margin-right: 40px;
+}
+.skill-img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.life-at-company {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 500px) {
+  .life-at-company {
+    flex-direction: row;
+  }
+}
+
+.life-at-company-img {
+  width: 100%;
+  max-width: 300px;
+}
+.similar-job-list {
+  display: flex;
+  padding: 0;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.similar-job-item {
+  max-width: 500px;
+}
+@media screen and (min-width: 500px) {
+  .similar-job-item {
+    margin-right: 20px;
+  }
+}
+h1 {
+  color: #ffffff;
+}
+
+.icon {
+  color: #ffffff;
+}

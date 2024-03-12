@@ -1,0 +1,51 @@
+.job-card-item {
+  list-style: none;
+  width: 100%;
+  padding: 10px;
+  background-color: #272727;
+  border-radius: 10px;
+  font-family: roboto;
+  margin-bottom: 10px;
+}
+.primary-info {
+  display: flex;
+  align-items: center;
+}
+.compony-img {
+  width: 50px;
+  margin-right: 10px;
+}
+.role-name {
+  margin: 0;
+  font-size: 20px;
+  color: #ffffff;
+}
+.rating {
+  margin: 0;
+}
+.secondary-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.loc-time-details {
+  display: flex;
+  align-items: center;
+}
+.location-icon {
+  margin-right: 5px;
+}
+.work-time-icon {
+  margin: 0 5px 0 10px;
+}
+.desc-h1 {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+.job-desc {
+  font-size: 13px;
+  line-height: 1.5;
+}
+.job-card-link {
+  text-decoration: none;
+}

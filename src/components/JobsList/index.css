@@ -1,0 +1,24 @@
+.joblist-possible-view-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.result-img {
+  width: 70%;
+}
+.result-h1 {
+  color: #ffffff;
+  margin-bottom: 0;
+  text-align: center;
+}
+.result-desc {
+  color: #ffffff;
+  text-align: center;
+}
+.job-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}

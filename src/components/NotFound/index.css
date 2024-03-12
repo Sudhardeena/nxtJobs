@@ -1,0 +1,19 @@
+.notfound-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  max-width: 1110px;
+  margin: auto;
+  background-color: black;
+  color: #ffffff;
+  font-family: roboto;
+  text-align: center;
+  padding: 20px;
+}
+p {
+  color: #f8fafc;
+}
+.notfound-img {
+}
